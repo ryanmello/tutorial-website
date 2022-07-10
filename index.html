@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <section>
       <nav>
-        <img src="./assests/FES.svg" alt="" />
+        <img src="./assests/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -17,36 +18,42 @@
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p>Go from absolute beginner to pro with a simplified process</p>
-          <button>Start now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button>Start now</button>
+          </div>
+          <figure>
+            <img src="./assests/laptop.png" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assests/laptop.png" alt="" />
-        </figure>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem
-            accusantium neque delectus? Quas doloremque asperiores officiis
-            error, dolorum ratione, maxime vel repudiandae dolor veritatis
-            eligendi corporis consequatur similique molestias?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus a
-            ea cupiditate laudantium, itaque, voluptas nisi necessitatibus
-            veritatis et commodi ratione officiis maxime atque quis, inventore
-            eius nihil facere repudiandae!
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut autem
+              accusantium neque delectus? Quas doloremque asperiores officiis
+              error, dolorum ratione, maxime vel repudiandae dolor veritatis
+              eligendi corporis consequatur similique molestias?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              a ea cupiditate laudantium, itaque, voluptas nisi necessitatibus
+              veritatis et commodi ratione officiis maxime atque quis, inventore
+              eius nihil facere repudiandae!
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./assests/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assests/about.jpg" alt="" />
-        </figure>
       </section>
 
       <section id="discord">
@@ -73,22 +80,22 @@
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-            <span>Email</span>
-            <input type="text" placeholder="jane@example.com">
-            <span>Message</span>
-            <textarea type="text"></textarea>
+          <span>Email</span>
+          <input type="text" placeholder="jane@example.com" />
+          <span>Message</span>
+          <textarea type="text"></textarea>
         </form>
       </section>
     </main>
     <footer>
-        <img src="./assests/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
-        </div>
-        <p>Copyright Frontend Simplified</p>
+      <img src="./assests/FES.svg" alt="" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
     </footer>
   </body>
 </html>
