@@ -46,7 +46,6 @@ a{
     color: black;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .logo{
@@ -69,6 +68,14 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+}
+
+#about,
+#discord,
+#contact,
+#footer{
+    padding: 48px 0px;
 }
 
 /*
@@ -77,8 +84,8 @@ ABOUT
 
 */
 
+
 #about{
-    padding: 48px 0px;
     background-color: #f8ffdc;
 }
 
@@ -115,3 +122,72 @@ img{
 }
 
 /* 14:45 */
+
+/*
+
+Discord
+
+*/
+
+#discord{
+    background-color: #cefeff;
+}
+
+/*
+
+Contact
+
+*/
+
+#contact{
+    background-color: #dce9ff;
+}
+
+.contact__form--wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/*
+
+Footer
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    margin-top: 16px;
+    max-width: 300px;
+}
+
+.footer__links{
+    margin: 16px;
+}
+
+.footer__link{
+    padding: 0 16px;
+}
+
+.footer__copyright{
+    margin-bottom: 16px;
+}
+
+
+
+
