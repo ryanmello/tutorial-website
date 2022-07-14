@@ -149,6 +149,7 @@ Contact
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    padding: 24px;
     
 }
 
@@ -186,6 +187,65 @@ footer{
 
 .footer__copyright{
     margin-bottom: 16px;
+}
+
+@media (max-width: 720px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .home__description{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .home__description--button{
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .section__description{
+        flex-direction: column;
+    }
+
+    .section__description--wrapper{
+        width: 100%;
+    }
+
+    .about__img--wrapper{
+        width: 100%;
+   }
+
+   #discord .section__description{
+    flex-direction: column-reverse;
+   }
+
+   .footer__link{
+    font-size: 18px;
+   }
+
+   
+
+    
 }
 
 
